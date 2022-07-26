@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Fira+Sans&family=Fredoka:wght@300;400&family=Merriweather+Sans:ital@1&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Shadows+Into+Light&display=swap');
+
+:root{
+    --blanco: #fff;
+    --celeste: #B5E0FA;
+    --naranja: #FFAB00;
+    --azul: #3AA9FF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+body{
+    background-color: var(--celeste);
+}
+.contenedor-header h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+}
+.contenedor-header{
+    padding: 40px;
+    margin: 35px;
+    border-radius: 50px;
+    align-items: center;
+    font-size: 30px;
+    float: left;
+    background-color: var(--blanco);
+    text-align: center;
+    align-items: center;
+    border: 1px solid;
+}
+.lista-menu{
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+.img-header{
+    height: 150px;
+    width: 150px;
+}
