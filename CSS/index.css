@@ -132,9 +132,34 @@ main{
 }
 
 .media__cover video{
+    padding-top: 55px;
     width: 100%;
     margin-top: -40px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 1024px){
