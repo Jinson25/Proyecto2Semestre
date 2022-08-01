@@ -11,18 +11,60 @@
     <title>Viajes-Calidad</title>
 </head>
 <body>
-    <header class="header-main">
-        <div class="contenedor-header">
-            <h1 class="title">Travel Tur</h1>
+    <!-- Nav navegacion -->
+    <header>
 
-            <ul class="lista-menu">
-                <li class="lista"><i class="bi bi-house-fill"></i></i><a href="#">Home</a></li>
-                <li class="lista"><i class="bi bi-award-fill"></i><a href="#">Rutas</a></li>
-                <li class="lista"><i class="bi bi-ticket-detailed-fill"></i><a href="#">Tickets</a></li>
-                <li class="lista"><i class="bi bi-people-fill"></i></i><a href="#">Guias</a></li>
-            </ul>
-            <img class="img-header" src="/img/125805.png" alt="">
+        <div class="container__header">	
+
+            <div class="logo">
+                <h2>Travel Tour</h2>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Lugares</a></li>
+                        <li><a href="#">Rutas</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Ticktes</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <i class="fa-solid fa-bars" id="icon_menu"></i>
+            <div class="header__register">
+                <input type="button" class="btn__header-register" value="Registrarse">
+            </div>
         </div>
+
     </header>
+    <main>
+
+        <div class="cover">
+            
+            <div class="text__information-cover">
+                <h1>Haz historia. No se limite a informar sobre ello.</h1>
+
+                <p>Vaya más allá de informar sobre datos históricos. Utilice la inteligencia procesable de cada
+                    evento digital para impactar positivamente en los resultados comerciales. Continuamente. En
+                    tiempo real. A escala.</p>
+
+                <div class="buttons__cover">
+                    <input type="button" class="btn__register-cover" value="Registrarse">
+                    <input type="button" class="btn__readMore-cover" value="Leer más">
+                </div>
+
+            </div>
+
+            <div class="media__cover">
+                <video src="media/animacion_cover.webm" autoplay playinline loop muted preload="auto"></video>
+            </div>
+
+
+        </div>
+    </main>
+
+    <script src="js/index.js"></script>
+	
 </body>
 </html>
