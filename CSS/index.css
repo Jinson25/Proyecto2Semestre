@@ -6,6 +6,215 @@
     --naranja: #FFAB00;
     --azul: #3AA9FF;
 }
+body {
+    background-color: var(--celeste);
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+header {
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+.navct {
+    color: var(--blanco);
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+@media (min-width: 750px) {
+    header {
+        text-align: left;
+    }
+}
+li {
+    list-style: none;
+}
+#hero {
+    background-image: url(../img/main2.jpg);
+    position: relative;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+#hero::before{
+    content: "";
+    background: rgb(0, 0, 0, 0.45);
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+}
+
+#encabezado {
+    margin: 30px 0;
+}
+.submenu {
+    position: relative;
+}
+.submenu #carrito {
+    display: none;
+
+}
+
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right: 0;
+    color: var(--blanco);
+    top: 100%;
+    z-index: 1;
+    background-color: var(--azul);
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: var(--blanco);
+}
+.contenido-hero{
+    padding-top: 120px;
+    margin-top: 80px;
+    color: var(--blanco);
+}
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+.contenido-hero form #buscador{
+    height: 50px;
+    margin-bottom: 0;
+
+}
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(../img/search-heart.svg);/*lupa*/
+    background-position: center; 
+    background-repeat: no-repeat;
+    border: none;
+    background-size: 25px;
+}
+
+.barra {
+    padding: 20px 0;
+    background: var(--naranja);
+}
+.barra p {
+    margin: 0;
+    color: var(--blanco);
+}
+
+.icon {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@media (min-width: 750px) {
+    .icon {
+        margin-bottom: 0;
+    }
+}
+
+.icon1 {
+    background-image: url(../img/card-image.svg);
+}
+.icon2 {
+    background-image: url(../img/camera-fill.svg);
+}
+.icon3 {
+    background-image: url(../img/calendar2-month.svg);
+}
+
+#lista-ruta .row{
+    margin-bottom: 20px;
+}
+.agregar-carrito{
+    margin: 10px 0;
+}
+.card {
+    text-align: center;
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
+    background: var(--azul);
+}
+
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+.info-card {
+    padding: 10px 20px;
+    color: var(--blanco);
+}
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+.footer {
+    border-top: 1px solid var(--blanco);
+    margin-top: 40px;
+    padding-top: 40px;
+}
+.footer .menu a {
+    display: block;
+    color: var(--blanco);
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 *{
     margin: 0;
     padding: 0;
@@ -79,7 +288,7 @@ header{
     display: none;
 }
 
-/*PORTADA - COVER*/
+/*PORTADA - COVER*
 
 main{
     max-width: 1200px;
@@ -136,31 +345,6 @@ main{
     width: 100%;
     margin-top: -40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 1024px){
 
@@ -253,3 +437,4 @@ main{
         margin-top: -100px;
     }
 }
+*/
