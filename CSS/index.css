@@ -6,9 +6,7 @@
     --naranja: #FFAB00;
     --azul: #3AA9FF;
 }
-body {
-    background-color: var(--celeste);
-}
+
 h1 {
     text-align: center;
     color: white;
@@ -20,11 +18,18 @@ h4 {
 header {
     padding: 20px 0 0 0;
     text-align: center;
+    background-color: #FFAB00;
 }
 .navct {
     color: var(--blanco);
-    padding-top: 5px;
+    padding-top: 15px;
     text-transform: uppercase;
+    font-size: 18px;
+}
+
+.navct a {
+    color: var(--blanco);
+    text-decoration: none;
 }
 @media (min-width: 750px) {
     header {
@@ -35,7 +40,7 @@ li {
     list-style: none;
 }
 #hero {
-    background-image: url(../img/main2.jpg);
+    background-image: url(https://www.radiohc.cu/articles/7312-caribe-turismo.jpg);
     position: relative;
     z-index: 0;
     background-repeat: no-repeat;
@@ -186,13 +191,13 @@ li {
     font-size: 22px;
 }
 .footer {
-    border-top: 1px solid var(--blanco);
+    border-top: 1px solid black;
     margin-top: 40px;
     padding-top: 40px;
 }
 .footer .menu a {
     display: block;
-    color: var(--blanco);
+    color: black;
     margin-bottom: 10px;
     text-decoration: none;
 }
