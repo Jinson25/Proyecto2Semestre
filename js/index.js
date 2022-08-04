@@ -1,3 +1,8 @@
+window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("abajo",window.scrollY>0);
+})
+
 const carrito = document.getElementById('carrito');
 const rutas = document.getElementById('lista-rutas');
 const listaRutas = document.querySelector('#lista-carrito tbody');

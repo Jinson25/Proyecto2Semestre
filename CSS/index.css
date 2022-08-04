@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Fira+Sans&family=Fredoka:wght@300;400&family=Merriweather+Sans:ital@1&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root{
     --blanco: #fff;
     --celeste: #B5E0FA;
     --naranja: #FFAB00;
     --azul: #3AA9FF;
 }
-
+body{
+    background-color: #303030;
+}
 h1 {
     text-align: center;
     color: white;
@@ -18,8 +20,15 @@ h4 {
 header {
     padding: 20px 0 0 0;
     text-align: center;
-    background-color: #FFAB00;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 10;
+    width: 100%;
 }
+
 .navct {
     color: var(--blanco);
     padding-top: 15px;
@@ -30,8 +39,21 @@ header {
 .navct a {
     color: var(--blanco);
     text-decoration: none;
+    transition: 0.7s;
 }
-@media (min-width: 750px) {
+header a:hover {
+    color: var(--naranja);
+  }
+
+header.abajo{
+    background: #fff;
+}
+header.abajo .logo,
+header.abajo ul li a{
+      color: #000;
+      font-weight: 500;
+  }
+@media (max-width: 750px) {
     header {
         text-align: left;
     }
@@ -62,6 +84,8 @@ li {
 
 #encabezado {
     margin: 30px 0;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .submenu {
     position: relative;
@@ -78,11 +102,61 @@ li {
     color: var(--blanco);
     top: 100%;
     z-index: 1;
-    background-color: var(--azul);
+    background-color: #171717;
     padding: 20px;
     min-height: 400px;
     min-width: 300px;
 }
+.titulo {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+.contain h3 {
+    font-size: 25px;
+    color: #fff;
+    padding: 0 150px;
+}
+.contain p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 150px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #e91e63;
+    color: #fff;
+    text-decoration: none;
+    background: #e91e63;
+}
+
+.btn:hover {
+    background: none;
+}
+#vaciar-carrito{
+    background-color: #fff;
+    font-size: 18px;
+}
+.content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price {
+    background: url(../img/costos.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
 
 .vacio {
     padding: 10px;
@@ -123,7 +197,8 @@ li {
 
 .barra {
     padding: 20px 0;
-    background: var(--naranja);
+    background: #17171750;
+    font-weight: 500;
 }
 .barra p {
     margin: 0;
@@ -147,9 +222,10 @@ li {
 
 .icon1 {
     background-image: url(../img/card-image.svg);
+    color: #fff;
 }
 .icon2 {
-    background-image: url(../img/camera-fill.svg);
+    background-image: url(../img/camera.svg);
 }
 .icon3 {
     background-image: url(../img/calendar2-month.svg);
@@ -170,11 +246,13 @@ li {
 @media (min-width: 550px) {
     .card {
         text-align: left;
+        background: #171717;
     }
 }
 .info-card {
     padding: 10px 20px;
     color: var(--blanco);
+    background: #171717;
 }
 .info-card p,
 .card h4 {
@@ -194,10 +272,11 @@ li {
     border-top: 1px solid black;
     margin-top: 40px;
     padding-top: 40px;
+    background: #171717;
 }
 .footer .menu a {
     display: block;
-    color: black;
+    color: #fff;
     margin-bottom: 10px;
     text-decoration: none;
 }
