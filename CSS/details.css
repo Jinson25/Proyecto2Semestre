@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Fira+Sans&family=Fredoka:wght@300;400&family=Merriweather+Sans:ital@1&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Shadows+Into+Light&display=swap');
 
+
+body{
+    font-size: 18px;
+}
+span{
+    font-size: 25px;
+}
 header {
     padding: 20px 0 0 0;
     text-align: center;
