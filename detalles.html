@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Detalles</title>
+
+	<!-- Normalize V8.0.1 -->
+	<link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./CSS/skeleton.css">
+
+	<!-- Bootstrap V5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+	<!-- Font Awesome V5.15.1 -->
+	<link rel="stylesheet" href="./css/all.css">
+
+	<!-- Sweet Alert V10.13.0 -->
+	<script src="./js/sweetalert2.js" ></script>
+
+	<!-- General Styles -->
+	<link rel="stylesheet" href="./CSS/details.css">
+    
+    
+
+</head>
+<body>
+
+	<!-- Header -->
+	<header id="header" class="header">
+        
+        <div>
+            
+        </div>
+    </header>
+
+
+	<!-- Content -->
+	<div class="container container-web-page">
+	    <h3 class="font-weight-bold poppins-regular text-uppercase">Detalles de platillo</h3>
+	    <hr>
+	    <div class="container-fluid">
+	        <div class="row">
+	            <div class="col-12 col-lg-5">
+	                <!--cover-->
+	                <figure class="full-box">
+	                    <img class="img-fluid" src="./img/main1.jpg" alt="platillo_">
+	                </figure>
+
+	                <!-- Galery -->
+	                <h5 class="poppins-regular text-uppercase" style="padding-top: 70px;">Galería de imágenes</h5>
+	                <hr>
+	                <div class="galery-details full-box">
+
+	                    <!--cover-->
+	                    <figure class="full-box">
+	                        <a data-fslightbox="gallery" href="./img/main1.jpg">
+	                            <img class="img-fluid" src="./img/main1.jpg" alt="platillo_">
+	                        </a>
+	                    </figure>
+
+	                    <!--otras-->
+	                    <figure class="full-box">
+	                        <a data-fslightbox="gallery" href="./img/main2.jpg">
+	                            <img class="img-fluid" src="./img/main3.jpg" alt="platillo_">
+	                        </a>
+	                    </figure>
+	                </div>
+	            </div>
+	            <div class="col-12 col-lg-7">
+
+	                <h4 class="font-weight-bold poppins-regular tittle-details">Ruta Turistica Pichincha</h4>
+
+	                <p class="text-justify lead" style="padding: 40px 0;">
+	                    <span class="text-info lead font-weight-bold">Descripción:</span><br>
+	                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis obcaecati, corporis nam ab officiis modi nesciunt iure repudiandae vel! Illum minus sapiente sunt quibusdam vero voluptate sequi eaque consectetur perferendis!
+	                </p>
+
+	                <p class="lead font-weight-bold">Precio: $25.00 USD</p>
+                    <div class="row">
+                        <div class="two columns u-pull-right">
+                            <ul>
+                                <li class="submenu">
+                                    <img src="./img/cart3.svg" alt="" height="40px" width="50px" id="img-carrito">
+                                    <div id="carrito">
+                                        <table id="lista-carrito" class="u-full-width">
+                                            <thead>
+                                                <tr>
+                                                    <th>Imagen</th>
+                                                    <th>Nombre</th>
+                                                    <th>Precio</th>
+                                                    <th></th>
+        
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                        <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar carrito</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+	                <!-- Agregar al carrito -->
+	                <form action="" style="padding-top: 70px;">
+	                    <div class="container-fluid">
+	                            <div class="col-12 col-md-6 text-center">
+	                                <a href="#" class="u-full-width button-primary button input agregar-carrito
+                        "> Agregar al carrito</a>
+	                            </div>
+	                        </div>
+	                    </div>
+                        
+	                </form>
+            </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+
+	<!-- Footer -->
+    <footer id="footer" class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav id="principal" class="menu">
+                        <a class="enlaces" href="#"><i class="bi bi-airplane-engines"></i> Travel Tour</a>
+                        <a class="enlaces" href="#"><i class="bi bi-person-lines-fill"></i> Convierte en socio</a>
+                        <a class="enlaces" href="#"><i class="bi bi-heart"></i> favoritos</a>
+                    </nav>
+                </div>
+
+                <div class="four columns">
+                    <nav id="principal" class="menu">
+                        <a class="enlaces" href="#"><i class="bi bi-award"></i> ¿Quienes somos?</a>
+                        <a class="enlaces" href="#"><i class="bi bi-facebook"></i> Facebook</a>
+                        <a class="enlaces" href="#"><i class="bi bi-youtube"></i> Youtube</a>
+                        <a class="enlaces" href="#"><i class="bi bi-instagram"></i> Instagram</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav id="principal" class="menu">
+                        <a class="enlaces" href="#"><i class="bi bi-envelope"></i> TravelTour@viajesturistico.com</a>
+                        <a class="enlaces" href="#"><i class="bi bi-telegram"></i> Telegram</a>
+                        <a class="enlaces" href="#"><i class="bi bi-twitter"></i> twitter</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<script src="./js/index.js"></script>
+</body>
+</html>
