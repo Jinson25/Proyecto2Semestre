@@ -10,6 +10,7 @@ body {
     font-family: sans-serif;
 }
 
+
 .head {
     display: flex;
     align-items: center;
@@ -46,9 +47,6 @@ body {
     font-size: 20px;
 }
 
-.navbar a:hover {
-    background: #e91e63;
-}
 
 .header {
     display: flex;
@@ -78,7 +76,7 @@ p {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #e91e63;
+    border: 2px solid #ffffff;
     color: #fff;
     text-decoration: none;
     background: #e91e63;
@@ -125,7 +123,7 @@ p {
     text-align: center;
     border-radius: 40%;
     color: #fff;
-    background: #e91e63;
+    background: #fff;
     font-size: 25px;
     margin: 10px 0;
     padding: 10px;
@@ -135,7 +133,7 @@ p {
 
 .box-container .box h3 {
     font-size: 20px;
-    color: #e91e63;
+    color: #ffffff;
 }
 
 .box-container .box p {
@@ -144,7 +142,7 @@ p {
 }
 
 .price {
-    background: url(../img/bg_5.jpg) no-repeat center;
+    background: #171717;
     background-size: cover;
     background-attachment: fixed;
     text-align:justify;
@@ -180,12 +178,12 @@ p {
     object-fit: cover;
     border-radius: 50%;
     margin-top: -50px;
-    border: 6px solid #e91e63;
+    border: 6px solid #ffffff;
 }
 
 .box-container2 .box h3 {
     font-size: 20px;
-    color: #e91e63;
+    color: #ffffff;
     padding-top: 10px;
 }
 
@@ -198,7 +196,7 @@ p {
 
 .box-container2 .box .stars i {
     font-size: 15px;
-    color: #e91e63;
+    color: #ffffff;
 }
 
 .contact {
